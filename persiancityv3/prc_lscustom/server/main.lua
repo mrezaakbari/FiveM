@@ -56,7 +56,7 @@ AddEventHandler('esx_lscustom:VehiclesInWatingList', function(vehicle, add, vehi
 	end
 end)
 ------------------------------------------------------------------
---                          Server Call back
+--                          Server Callback
 ------------------------------------------------------------------
 ESX.RegisterServerCallback('esx_lscustom:getDefaultCar', function(source, cb, vehicle)
 	if VehiclesInWatingList[vehicle] then

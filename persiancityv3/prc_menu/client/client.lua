@@ -66,7 +66,6 @@ end)
 ------------------------------------------------------------------
 --                          Citizen
 ------------------------------------------------------------------
-
 Citizen.CreateThread(function()
   local playerPed = GetPlayerPed(-1)
   while true do
@@ -76,11 +75,9 @@ Citizen.CreateThread(function()
     Citizen.Wait(0)
   end
 end)
-
 ------------------------------------------------------------------
 --                        Close Nui Functions
 ------------------------------------------------------------------
-
 function CloseNui()
   SendNUIMessage(
     {
@@ -90,11 +87,9 @@ function CloseNui()
   DeactiveCrossHair()
   SetNuiFocus(false, false)
 end
-
 ------------------------------------------------------------------
 --                        Open Nui User / Car
 ------------------------------------------------------------------
-
 function OpenUserNui(Entity)
   SendNUIMessage(
     {
@@ -114,11 +109,9 @@ function OpenCarNui(Entity)
   )
   SetNuiFocus(true, true)
 end
-
 ------------------------------------------------------------------
 --                  Active / Deactive Cross Hair
 ------------------------------------------------------------------
-
 function ActiveCrossHair()
   SendNUIMessage({
     crosshair = true
@@ -133,7 +126,6 @@ end
 ------------------------------------------------------------------
 --                        User Nui Functions
 ------------------------------------------------------------------
-
 function openInventory()
   exports['esx_inventoryhud']:OpenPlayerInventoryNui()
 end

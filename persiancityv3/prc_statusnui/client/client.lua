@@ -89,7 +89,9 @@ AddEventHandler('onClientResourceStop', function (resourceName)
     end
     hideHud()
 end)
-
+------------------------------------------------------------------
+--                          Server Event Handler
+------------------------------------------------------------------
 RegisterNetEvent('esx:playerSpawned')
 AddEventHandler('esx:playerSpawned', function()
     Citizen.Wait(5000)
@@ -146,7 +148,9 @@ AddEventHandler('prc_status:toggleui', function(show)
 end)
 
 RegisterNetEvent("prc:statusupdateping")
-AddEventHandler("prc:statusupdateping", function(val) updatePing(val) end)
+AddEventHandler("prc:statusupdateping", function(val) 
+    updatePing(val)
+end)
 ------------------------------------------------------------------
 --                        User Commands
 ------------------------------------------------------------------

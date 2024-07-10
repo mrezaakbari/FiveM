@@ -46,7 +46,7 @@ Citizen.CreateThread(function()
   	end
 end)
 ------------------------------------------------------------------
---                          Event Handler
+--                          Server Event Handler
 ------------------------------------------------------------------
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
@@ -73,7 +73,9 @@ RegisterNetEvent('esx_lscustom:cancelInstallMod')
 AddEventHandler('esx_lscustom:cancelInstallMod', function(vehicle)
 	ESX.Game.SetVehicleProperties(vehicle, myCar)
 end)
-
+------------------------------------------------------------------
+--                          Event Handler
+------------------------------------------------------------------
 AddEventHandler('playerSpawned', function(spawn)
 	IsDead = false
 end)
@@ -98,7 +100,7 @@ AddEventHandler('prcmarker:EnterMarker',function(zone)
 		end
 	end
 end)
-  
+
 AddEventHandler('prcmarker:ExitMarker',function(zone)
 	if zone == "mechanicgrage1" or zone == "mechanicgrage2" or zone == "mechanicgrage3" and PrcZone ~= nil then
 		exports["prc_helpnui"]:HideHelpPrompet()
@@ -163,7 +165,6 @@ RegisterCommand('finishorder', function()
 		end
 	end
 end, false)
-
 ------------------------------------------------------------------
 --                          Functions
 ------------------------------------------------------------------

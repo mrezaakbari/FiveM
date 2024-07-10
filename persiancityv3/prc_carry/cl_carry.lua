@@ -96,7 +96,7 @@ RegisterCommand("carry",function(source, args)
 	end
 end,false)
 ------------------------------------------------------------------
---                          Event Handler
+--                          Server Event Handler
 ------------------------------------------------------------------
 RegisterNetEvent("CarryPeople:syncTarget")
 AddEventHandler("CarryPeople:syncTarget", function(targetSrc)
