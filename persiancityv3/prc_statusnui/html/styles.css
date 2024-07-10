@@ -1,0 +1,155 @@
+/* ------------------------------------------------------------------
+--                  Developed By MReza
+--               For Persian City Fivem Server
+--                 Discord: mrezaa
+------------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'mreza';
+    src: url("fonts/Quicksand-VariableFont_wght.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+#statusCard {
+    width: 14.2%;
+    position: absolute;
+    bottom: 0.65%;
+    left: 1.5%;
+}
+
+#infoCard {
+    width: auto;
+    position: absolute;
+    bottom: 0.3%;
+    left: 15.8%;
+}
+
+#playerCard {
+    position: absolute;
+    width: auto;
+    bottom: 3.3%;
+    right: 0.8%;
+    text-align: right;
+}
+
+#varHealth>#boxSetHealth {
+    background: rgb(255, 0, 0);
+}
+
+#varArmor>#boxSetArmour {
+    background: rgb(247, 247, 247);
+}
+
+#varHunger>#boxSetHunger {
+    background: rgb(241, 148, 8);
+}
+
+#varThirst>#boxSetThirst {
+    background: rgb(0, 179, 250);
+}
+
+#logo {
+    position: absolute;
+    width: 7vw;
+    left: 45%;
+    opacity: 50%;
+}
+
+#boxSetHealth,
+#boxSetArmour,
+#boxSetHunger,
+#boxSetThirst {
+    width: 100%;
+    height: 8px;
+    background: rgba(110, 110, 110, 0.5);
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    z-index: 97;
+}
+
+.bar {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: calc(50.5% - 4px - 4px);
+    height: 8px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    z-index: 98;
+    margin-left: 0px !important;
+}
+
+.status {
+    width: auto;
+    height: auto;
+    float: none;
+    z-index: 99;
+}
+
+.statusGang {
+    float: none;
+    z-index: 99;
+}
+
+.statusJob {
+    float: none;
+    z-index: 99;
+    margin-top: 5px;
+}
+
+.image {
+    width: calc(50.5% - 4px - 4px);
+}
+
+.spanText {
+    border-radius: 25px;
+    background-color: rgb(158, 158, 158);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    font-size: 0.85vw;
+    line-height: 1vw;
+}
+
+.spanPadding {
+    padding: 4px 10px 4px 30px;
+}
+
+.spanPaddingSame {
+    padding: 1px 6px;
+}
+
+.text_darkred {
+    color: darkred !important;
+}
+
+.text_green {
+    color: green !important;
+}
+
+.text_format {
+    font-family: mreza;
+    margin-top: calc(9% - 4px - 4px) !important;
+}
+
+.img_cash {
+    background-image: url(dollar.png);
+}
+
+.img_name {
+    background-image: url(idcard.png);
+}
+
+.img_time {
+    background-image: url(clock.png);
+}
+
+.img_ping {
+    background-image: url(wifi.png);
+}
+
+.size_height {
+    height: 10px;
+}
