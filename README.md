@@ -1,2 +1,2 @@
 # FiveM
- Persian city version 3 scripts
+ FiveM scripts for persian city server version 3
