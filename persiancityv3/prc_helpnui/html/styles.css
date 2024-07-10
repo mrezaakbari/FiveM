@@ -1,0 +1,40 @@
+/* ------------------------------------------------------------------
+--                  Developed By MReza
+--               For Persian City Fivem Server
+--                 Discord: mrezaa
+------------------------------------------------------------------ */
+
+@font-face {
+    font-family: AdventPro;
+    src: url('fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+#varbar {
+    position: absolute;
+    bottom: 58%;
+    left: 0.1%;
+    white-space: nowrap;
+}
+
+.textinfo {
+    font-family: AdventPro;
+}
+
+.bar {
+    background-color: rgb(20, 122, 255);
+    border-radius: 2.5px;
+    height: 25px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 28px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: AdventPro;
+    z-index: 98;
+}
+
+p {
+    color: white;
+    word-spacing: 1px;
+}
