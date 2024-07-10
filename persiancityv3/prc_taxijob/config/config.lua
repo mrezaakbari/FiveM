@@ -1,15 +1,11 @@
 Config                            = {}
-
 Config.DrawDistance               = 100.0
-
 Config.MaxInService               = -1
 Config.EnablePlayerManagement     = true
 Config.EnableSocietyOwnedVehicles = false
-
 Config.Locale                     = 'en'
 
 Config.AuthorizedVehicles = {
-
 	{
 		model = 'superd',
 		label = 'Superd'
@@ -18,7 +14,6 @@ Config.AuthorizedVehicles = {
 		model = 'taxi2',
 		label = 'Mercedes Benz C CLASS'
 	},
-	
 	{
 		model = 'bmcitaxi',
 		label = 'BMW Taxi'
